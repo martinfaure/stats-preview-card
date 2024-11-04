@@ -1,0 +1,75 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Inter", serif;
+	font-optical-sizing: auto;
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	align-items: center;
+	font-size: 100%;
+}
+
+.box {
+	background-color: #806acf44;
+	width: 60%;
+	height: 50%;
+	display: flex;
+	border-radius: 8px;
+}
+.txt {
+	color: hsl(271, 76%, 53%);
+}
+.titre {
+	font-size: 1.15em;
+}
+
+.boxc {
+	display: flex;
+	flex-direction: column;
+	padding: 50px;
+	width: 50%;
+}
+
+.paragraphe {
+	margin-top: 50px;
+	color: rgb(167, 165, 165);
+	font-weight: 300;
+}
+
+.box1 {
+	display: flex;
+	flex-direction: row;
+	margin-top: 80px;
+	font-size: 1.25em;
+	font-weight: bolder;
+	gap: 50px;
+	justify-content: center;
+}
+
+.box2 {
+	width: 1%;
+	height: 10%;
+}
+
+.img {
+	background: center/cover
+		url(https://s3-alpha-sig.figma.com/img/fa69/495d/55a75cf7eb85a83d75c5d213ff6dd625?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=REg0WkN36AK4r6iBWynvXAwQHk46fKNb2Cv42L82C5s7IDSQuKfFRJfXyT~JGJUN7b6-cZFFMF-ssZvKXWL8ndgGn36GXWarION9Rbc~cz9X9a7B4xW-D0YBrhAg4RQj6~ZAoWXUo4~5ha7Fup6HzXfmL5bixIpCmW0Unc0wdz-X2yyfs-TcoXXVFOHY8AOzubzGoHvx-FfA6z3U7SHx8rVaVXi22V70OUowbu32KIKBhuXQ7AhjfT16RRS4iR~FRLkY6E372qGNPY2eQylHsKbTPPuwvVMJX7enBrdo~x7NRA9QGiuE-k68MwDiyyePuFXZZV9wlfek8Lf7JkEaxg__);
+	mix-blend-mode: multiply;
+	filter: saturate(2);
+	width: 150%;
+	border-radius: 8px, 0px, 8px, 0px;
+}
+
+.box1-1 {
+	color: gray;
+	font-family: "Lexend Deca", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 300;
+}
