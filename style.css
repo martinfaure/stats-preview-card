@@ -59,9 +59,7 @@ body {
 }
 
 .img {
-	background: center/cover
-		url(https://s3-alpha-sig.figma.com/img/fa69/495d/55a75cf7eb85a83d75c5d213ff6dd625?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=REg0WkN36AK4r6iBWynvXAwQHk46fKNb2Cv42L82C5s7IDSQuKfFRJfXyT~JGJUN7b6-cZFFMF-ssZvKXWL8ndgGn36GXWarION9Rbc~cz9X9a7B4xW-D0YBrhAg4RQj6~ZAoWXUo4~5ha7Fup6HzXfmL5bixIpCmW0Unc0wdz-X2yyfs-TcoXXVFOHY8AOzubzGoHvx-FfA6z3U7SHx8rVaVXi22V70OUowbu32KIKBhuXQ7AhjfT16RRS4iR~FRLkY6E372qGNPY2eQylHsKbTPPuwvVMJX7enBrdo~x7NRA9QGiuE-k68MwDiyyePuFXZZV9wlfek8Lf7JkEaxg__);
-	mix-blend-mode: multiply;
+	background: center/cover url(/image1.png);
 	filter: saturate(2);
 	width: 150%;
 	border-radius: 8px, 0px, 8px, 0px;
@@ -72,4 +70,49 @@ body {
 	font-family: "Lexend Deca", sans-serif;
 	font-optical-sizing: auto;
 	font-weight: 300;
+}
+
+@media screen and (max-width: 700px) {
+	.box {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		height: 100%;
+		width: 100%;
+	}
+
+	.titre {
+		font-size: 125%;
+	}
+
+	.boxc {
+		align-items: center;
+		text-align: center;
+		width: 100%;
+	}
+
+	.paragraphe {
+		font-size: 150%;
+	}
+
+	.box1 {
+		flex-direction: column;
+		font-size: 200%;
+	}
+
+	.box1-1 {
+		display: flex;
+		flex-direction: column;
+		font-weight: 300;
+	}
+
+	.image {
+		width: 100%;
+		height: 100%;
+	}
+
+	.img {
+		width: 100%;
+		height: 100%;
+	}
 }
